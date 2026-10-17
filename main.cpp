@@ -71,6 +71,9 @@ int main() {
         cin >> a >> n;
         cout << POW(a, n) << endl;
     }
+    else {
+        cout << "Unknown commands!" << endl;
+    }
 
     return 0;
 }
