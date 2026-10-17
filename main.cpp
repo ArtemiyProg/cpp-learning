@@ -71,6 +71,9 @@ int main() {
         cin >> a >> n;
         cout << POW(a, n) << endl;
     }
+    if (command == "PRINT") {
+        cout << "Hello, Users!" << endl;
+    }
     else {
         cout << "Unknown commands!" << endl;
     }
