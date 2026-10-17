@@ -1,0 +1,20 @@
+# JetBrains
+.idea/
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Executables
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# CMake cache
+CMakeFiles/
+CMakeCache.txt
+
+# Logs
+*.log
