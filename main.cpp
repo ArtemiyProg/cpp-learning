@@ -33,6 +33,15 @@ int SEP(int a, int b) {
     return a / b;
 }
 
+int POW(int a, int n) {
+    int res = 1;
+    if (n == 0) return res;
+    for (int i = 0; i < n; i++) {
+        res *= a;
+    }
+    return res;
+}
+
 int main() {
     string command;
     cin >> command;
@@ -56,6 +65,11 @@ int main() {
         int a, b;
         cin >> a >> b;
         cout << SEP(a, b) << endl;
+    }
+    if (command == "POW") {
+        int a, n;
+        cin >> a >> n;
+        cout << POW(a, n) << endl;
     }
 
     return 0;
